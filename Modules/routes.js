@@ -1,5 +1,13 @@
 import db from "../Database/index.js";
 function ModuleRoutes(app) {
+    app.get("/modules", (req, res) => {
+        res.send(db.modules);
+    });
+
+    app.get("/users", (req, res) => {
+        res.send(db.users);
+    });
+
     app.put("/modules/:mid", (req, res) => {
         const { mid } = req.params;
         const moduleIndex = db.modules.findIndex((m) => m._id === mid);
