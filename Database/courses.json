@@ -1,0 +1,74 @@
+[
+    {
+        "_id": "CS5001.19973.202309",
+        "name": "CS5001 19973 Intensive Foundations of CS",
+        "number": "CS5001",
+        "term": "Fall 2022 Semester Full Term",
+        "startDate": "2022-09-01",
+        "endDate": "2022-12-15",
+        "image": "/images/sakura.JPG",
+        "icon": "BsPencilSquare",
+        "department": "D123",
+        "credits": 4
+    },
+    {
+        "_id": "CS5002.19998.202309",
+        "name": "CS5002 19998 Discrete Structures",
+        "number": "CS5002",
+        "term": "Fall 2022 Semester Full Term",
+        "startDate": "2022-09-01",
+        "endDate": "2022-12-15",
+        "image": "/images/sakura.JPG",
+        "icon": "BsPencilSquare",
+        "department": "D123",
+        "credits": 4
+    },
+    {
+        "_id": "CS5004.36416.202309",
+        "name": "CS5004 36416 Object-Oriented Design Merged",
+        "number": "CS5004",
+        "term": "Spring 2023 Semester Full Term",
+        "startDate": "2023-01-10",
+        "endDate": "2023-05-15",
+        "image": "/images/sakura.JPG",
+        "icon": "BsPencilSquare",
+        "department": "D123",
+        "credits": 4
+    },
+    {
+        "_id": "CS5008.12345.202309",
+        "name": "CS 5008 Data Str, Algo & App in CmpSys",
+        "number": "CS5008",
+        "term": "Spring 2023 Semester Full Term",
+        "startDate": "2023-01-10",
+        "endDate": "2023-05-15",
+        "image": "/images/sakura.JPG",
+        "icon": "BsPencilSquare",
+        "department": "D123",
+        "credits": 4
+    },
+    {
+        "_id": "CS5200.17402.202510",
+        "name": "CS5200 17402 DATABASE MANAGEMENT SYS SEC 05 FALL 2023 [PTL-2-TR]",
+        "number": "CS5200",
+        "term": "Fall 2023 Semester Full Term",
+        "startDate": "2023-09-01",
+        "endDate": "2023-12-15",
+        "image": "/images/sakura.JPG",
+        "icon": "BsPencilSquare",
+        "department": "D123",
+        "credits": 4
+    },
+    {
+        "_id": "CS5610.17387.202309",
+        "name": "CS5610 17387 Web Development",
+        "number": "CS5610",
+        "term": "Fall 2023 Semester Full Term",
+        "startDate": "2023-09-01",
+        "endDate": "2023-12-15",
+        "image": "/images/sakura.JPG",
+        "icon": "BsPencilSquare",
+        "department": "D123",
+        "credits": 4
+    }
+]
