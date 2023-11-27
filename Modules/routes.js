@@ -8,6 +8,15 @@ function ModuleRoutes(app) {
         res.send(db.users);
     });
 
+    app.get("/grades", (req, res) => {
+        res.send(db.grades);
+    });
+
+     app.get("/assignments", (req, res) => {
+        res.send(db.assignments);
+    });
+
+
     app.put("/modules/:mid", (req, res) => {
         const { mid } = req.params;
         const moduleIndex = db.modules.findIndex((m) => m._id === mid);
