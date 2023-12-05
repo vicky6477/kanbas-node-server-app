@@ -8,9 +8,9 @@ import CourseRoutes from "./Courses/routes.js";
 import ModuleRoutes from "./Modules/routes.js";
 import cors from "cors";
 import mongoose from "mongoose";
-mongoose.connect("mongodb://127.0.0.1:27017/kanbas");
-
-const CONNECTION_STRING = process.env.DB_CONNECTION_STRING;
+const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/kanbas';
+console.log("Connecting to DB with string:", CONNECTION_STRING);
+mongoose.connect(CONNECTION_STRING);
 
 import UserRoutes from "./users/routes.js";
 
