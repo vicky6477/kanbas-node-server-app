@@ -12,7 +12,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/kanbas");
 import UserRoutes from "./users/routes.js";
 
 const app = express();
-app.use(cors({ credentials: true, origin: "https://a6--luminous-kangaroo-c0e365.netlify.app/#/project" }));
+app.use(cors({ credentials: true, origin: "https://a6--luminous-kangaroo-c0e365.netlify.app/#/project/signin" }));
 
 const sessionOptions = {
     secret: "any string",
