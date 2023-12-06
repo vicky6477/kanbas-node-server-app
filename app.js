@@ -15,7 +15,8 @@ mongoose.connect(CONNECTION_STRING);
 const app = express();
 app.use(cors({
   credentials: true,
-  origin: process.env.FRONTEND_URL
+  origin: 'https://a6--luminous-kangaroo-c0e365.netlify.app', 
+  optionsSuccessStatus: 200 
 }));
 
 
