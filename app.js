@@ -13,17 +13,16 @@ mongoose.connect(CONNECTION_STRING);
 
 
 const app = express();
-app.use(cors({
-  credentials: true,
-  origin: 'https://a6--luminous-kangaroo-c0e365.netlify.app', 
-  optionsSuccessStatus: 200 
-}));
-
-
+app.use(
+  cors({
+    credentials: true,
+    origin: process.env.FRONTEND_URL
+  })
+);
 const sessionOptions = {
-    secret: "any string",
-    resave: false,
-    saveUninitialized: false,
+  secret: "any string",
+  resave: false,
+  saveUninitialized: false,
 };
 if (process.env.NODE_ENV !== "development") {
   sessionOptions.proxy = true;
